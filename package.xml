@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package>
+  <name>roslaunch_test_resolve_unless</name>
+  <version>0.0.0</version>
+  <description>The roslaunch_test_resolve_unless package</description>
+  <maintainer email="todo@todo.todo">todo</maintainer>
+  <license>TODO</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslaunch</build_depend>
+</package>

@@ -1,0 +1,8 @@
+<launch>
+  <group ns="foo">
+    <include file="$(find roslaunch_test_resolve_unless)/launch/includer.launch">
+      <!-- arg name="my_arg" value="false" /-->
+      <!-- arg name="my_unless_arg" value="my_value" / -->
+    </include>
+  </group>
+</launch>

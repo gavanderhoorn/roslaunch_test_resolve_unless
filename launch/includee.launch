@@ -1,0 +1,7 @@
+<launch>
+  <arg name="req_arg" />
+
+  <!-- not even needed -->
+  <!-- param name="req_arg_param" value="$(arg req_arg)" / -->
+
+</launch>

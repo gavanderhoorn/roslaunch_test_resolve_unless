@@ -1,0 +1,10 @@
+<launch>
+  <arg name="my_arg" default="true" />
+  <arg name="my_unless_arg" unless="$(arg my_arg)" />
+
+  <group unless="$(arg my_arg)">
+    <include file="$(find roslaunch_test_resolve_unless)/launch/includee.launch">
+      <arg name="req_arg" value="$(arg my_unless_arg)" />
+    </include>
+  </group>
+</launch>
